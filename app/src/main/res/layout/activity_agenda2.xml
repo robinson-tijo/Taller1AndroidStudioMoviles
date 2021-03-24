@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="268dp"
+        android:background="@drawable/perfil">
+
+
+        <TextView
+            android:id="@+id/textViewBiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="80dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRegistrarC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+
+            android:text="Registrar Contactos" />
+        <Button
+            android:id="@+id/btnVentanaConsult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:text="Consultar Contactos" />
+
+
+        <Button
+            android:id="@+id/btnRegresarLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Regresar al login" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
